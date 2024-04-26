@@ -5,10 +5,12 @@ counter = 0
 def reset_list(this_many):
     global counter
     counter = 0
+    # to be 'fair', we'll create the same randomized list each time
     random.seed(42) # <- you can change that if you want
     # TODO create a list with 'this_many' random items
     # TODO return that list
     pass
+
 
 # TODO this function swaps two items in a list
 def swap(lst, i, j):

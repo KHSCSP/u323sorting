@@ -16,9 +16,11 @@ merge count:  5xx
 quicksort count:  6xx
 '''
 
+
 # TODO #1 write the 'reset_list' function (in functions.py)
 # TODO #2 write the 'swap' function (in functions.py)
 # TODO #3 test your code so far (the merge and quick sorts at the bottom should work)
+
 
 
 # TODO #4
@@ -42,20 +44,23 @@ quicksort count:  6xx
 # notice how to call the functions and how to get the counter variable
 lst = f.reset_list(this_many)
 lst = f.merge_sort(lst)
-print("merge count: ", f.counter)
+merge_ans = f.counter
+print("merge count: ", merge_ans)
+
 
 lst = f.reset_list(this_many)
 lst = f.quicksort(lst)
-print("quicksort count: ", f.counter)
+quick_ans = f.counter
+print("quicksort count: ", quick_ans)
 
 
 
-# optional ------------------------------------------------
-# use matplotlib to make your graph!
-# pseudocode:
-# make a list of lengths that you want to include
-# make lists for each sort algorithm that will store the a list of 'counter' values
-# iterate through this list
-# reset the list, call the sort algorithm, append the 'counter' value to this algorithms list
-# reset the list, call the next sort algorithm, append the 'counter' value to this algorithms list
-# when the loop is finished, graph your data!
+
+
+# making a bar graph ------------------------------
+import matplotlib.pyplot as plt
+# TODO make a list of the names of the algorithms
+# TODO make a list of the 'answers' from the algorithms
+# TODO make a barchart: plt.bar(algs_list, nums_list)
+
+
