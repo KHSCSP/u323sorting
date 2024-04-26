@@ -3,22 +3,23 @@ this_many = 100
 
 '''
 ----- goal -----
-compare the number of comparisons for the various sorting algorithms
+analyze the efficiency for the various sorting algorithms
 
 ----- instructions -----
 print the number of comparisons for each algorithm
 for example, your output might look like this:
 
 calling sorting algorithms with 100 items...
-bubble count:  4950
-insertion count:  2359
-merge count:  544
-quicksort count:  639
+bubble count:  4xxx
+insertion count:  2xxx
+merge count:  5xx
+quicksort count:  6xx
 '''
 
 # TODO #1 write the 'reset_list' function (in functions.py)
 # TODO #2 write the 'swap' function (in functions.py)
 # TODO #3 test your code so far (the merge and quick sorts at the bottom should work)
+
 
 # TODO #4
 # TODO call the reset_list function

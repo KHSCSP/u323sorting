@@ -59,6 +59,8 @@ def merge_sort(arr):
     # merge each side together
     return merge(left, right, arr.copy())
 
+
+
 def merge(left, right, merged):
     """ Merge helper, Complexity: O(n) """
 
@@ -104,6 +106,7 @@ def partition(array, start, end):
             L += 1
     return R
 
+
 def _quicksort(array, start, end):
     """ Recursive quicksort function """
     global counter
@@ -112,6 +115,7 @@ def _quicksort(array, start, end):
         split = partition(array, start, end)
         _quicksort(array, start, split-1)
         _quicksort(array, split+1, end)
+
 
 def quicksort(array):
     _quicksort(array, 0, len(array)-1)
