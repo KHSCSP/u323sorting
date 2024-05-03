@@ -1,5 +1,5 @@
 import functions as f
-this_many = 100
+how_many = 100
 
 '''
 ----- goal -----
@@ -42,13 +42,13 @@ quicksort count:  6xx
 # ------------------------------------------------
 # these two algorithms have been completed for you
 # notice how to call the functions and how to get the counter variable
-lst = f.reset_list(this_many)
+lst = f.reset_list(how_many)
 lst = f.merge_sort(lst)
 merge_ans = f.counter
 print("merge count: ", merge_ans)
 
 
-lst = f.reset_list(this_many)
+lst = f.reset_list(how_many)
 lst = f.quicksort(lst)
 quick_ans = f.counter
 print("quicksort count: ", quick_ans)
