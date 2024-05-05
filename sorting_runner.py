@@ -42,12 +42,14 @@ quicksort count:  6xx
 # ------------------------------------------------
 # these two algorithms have been completed for you
 # notice how to call the functions and how to get the counter variable
+print("\nresetting list...sorting with merge...")
 lst = f.reset_list(how_many)
 lst = f.merge_sort(lst)
 merge_ans = f.counter
 print("merge count: ", merge_ans)
 
 
+print("\nresetting list...sorting with quick...")
 lst = f.reset_list(how_many)
 lst = f.quicksort(lst)
 quick_ans = f.counter
