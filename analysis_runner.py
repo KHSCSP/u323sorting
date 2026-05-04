@@ -10,8 +10,8 @@ qck_ans = []
 
 
 # loop through vals
-# reset the list of random numbers
-# call each sorting function, saving the 'counter' each time in the correct list
+#    reset the list of random numbers
+#    call each sorting function, saving the 'counter' each time in the correct list
 
 
 
