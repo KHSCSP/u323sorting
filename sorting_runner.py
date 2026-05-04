@@ -19,18 +19,17 @@ quicksort count:  6xx
 
 # TODO #1 write the 'reset_list' function (in functions.py)
 # TODO #2 write the 'swap' function (in functions.py)
-# TODO #3 test your code so far (the merge and quick sorts at the bottom should work)
 
 
 
-# TODO #4
+# TODO #3
 # TODO call the reset_list function
 # TODO call the bubble_sort function
 # TODO print the 'counter' variable
 
 
 
-# TODO #5
+# TODO #4
 # TODO call the reset_list function
 # TODO call the insertion_sort function
 # TODO print the 'counter' variable
