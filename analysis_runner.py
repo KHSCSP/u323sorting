@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import functions as f
 
+
+# NOTE: if your merge sort causes a stack overflow
+#           you may need to reduce the number of values
 vals = [1000, 2000, 3000, 4000]
 # these will be filled with the number of comparisons for each
 bub_ans = []
